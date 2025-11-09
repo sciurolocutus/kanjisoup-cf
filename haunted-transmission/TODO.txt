@@ -1,0 +1,8 @@
+Have the human body step on the gas or brakes
+Track speed / acceleration
+Generate obstacles
+Show movement
+
+Use requestAnimationFrame to determine optimal playback speed [x]
+
+Add audio and make it behave properly

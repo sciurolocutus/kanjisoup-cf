@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Haunted Transmission</title>
+<style>
+	* { padding: 0; margin: 0 }
+	canvas {background: #eee; display: block; margin: 0 auto; width: 90%; height: 30% }
+</style>
+
+<script type="text/javascript" src="street.js"></script>
+<script type="text/javascript" src="audio.js"></script>
+<script type="text/javascript" src="game.js"></script>
+
+<script type="text/javascript" >window.onload = function() { displayGame(); }</script>
+
+</head>
+<body>
+
+<p>You wake up and get in your car to go to work. Then you realize you're actually your car's transmission. But you're still running late for work.</p>
+<p>Controls:
+<ul>
+  <li>Up: shift up</li>
+  <li>Down: shift down</li>
+  <li>Right: attempt to speed up (but you don't control the gas pedal)</li>
+  <li>Left: attempt to slow down (but you don't control the brake pedal)</li>
+  <li>Shift: start the radio (because for some reason you control that)</li>
+  <li>Escape: Crash the game (and the car)</li>
+</ul>
+</p>
+
+<canvas id="theCanvas" width="800" height="300"></canvas>
+
+</body>
+</html>
